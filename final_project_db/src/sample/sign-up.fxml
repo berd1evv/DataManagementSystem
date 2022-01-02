@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: EAEAD0;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="496.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@contact1.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="14.0" layoutY="20.0" text="AIU STAFF&#10;CONTACT INFO" textFill="#331280">
+                    <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="400.0" prefWidth="299.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="137.0" fitWidth="131.0" layoutX="94.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@IAAU-LOGO2.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="28.0" layoutY="186.0" text="Username">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <Label layoutX="29.0" layoutY="226.0" text="Password">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="tf_username" layoutX="116.0" layoutY="182.0" promptText="Username" />
+                <PasswordField fx:id="tf_password" layoutX="116.0" layoutY="222.0" promptText="Password" />
+                <Button fx:id="button_login" layoutX="103.0" layoutY="271.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" style="-fx-background-color: #331280;" text="Log In" textFill="#f8f8f8" />
+                <Label fx:id="wrongLogIn" layoutX="75.0" layoutY="157.0" prefHeight="17.0" prefWidth="168.0" textFill="#cd0606" />
+                <Label layoutX="103.0" layoutY="318.0" prefHeight="18.0" prefWidth="61.0" text="Not a user ?" textFill="#1e0202">
+                    <font>
+                        <Font name="Arial Bold" size="10.0" />
+                    </font>
+                </Label>
+                <Button fx:id="button_sign_up" layoutX="160.0" layoutY="315.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign up !" textFill="#10197c" underline="true">
+                    <font>
+                        <Font name="Arial Bold" size="11.0" />
+                    </font>
+                </Button>
+                <AnchorPane layoutX="2.0" layoutY="360.0" prefHeight="17.0" prefWidth="299.0" style="-fx-background-color: EEEEE1;">
+                    <children>
+                        <Label layoutX="51.0" layoutY="13.0" prefHeight="17.0" prefWidth="211.0" text="© 2020 Международный Университет Ала-Тоо">
+                            <font>
+                                <Font size="9.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </right>
+</BorderPane>
