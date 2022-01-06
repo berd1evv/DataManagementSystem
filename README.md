@@ -20,7 +20,7 @@ Log out button will change scene to the main log in page again.
 YOUTUBE VIDEO PRESENTATION:
 https://youtu.be/v6P9K398hY0
 
-#Feedbacks
+# Feedbacks
 
 # Team Members List
 <h3>Bekmurzaev Elmir</h3>
