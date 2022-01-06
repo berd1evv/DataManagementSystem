@@ -12,6 +12,11 @@ Here you can see the connection between database and the application
 
 ![connection with database](https://user-images.githubusercontent.com/73636880/148377503-39ea83d2-a8c9-4d0a-bd03-59fa7bb96287.PNG)
 
+After log in you can type your massage in the textArea and then sent it to the database.
+Log out button will change scene to the main log in page again.
+
+![logged in page1](https://user-images.githubusercontent.com/73636880/148385204-c6823309-75bb-44fe-9e94-1646b006526c.PNG)
+
 # Team Members List
 <h3>Bekmurzaev Elmir</h3>
 <h3>Kudaiberdiev Eldiiar</h3>
