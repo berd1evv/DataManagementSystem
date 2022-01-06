@@ -25,6 +25,8 @@ This program is comfortable to use. And user can use this by intuition. In progr
 _____________________________________
 https://drive.google.com/file/d/162ENOJN5KIBouaw-nLPy5_paiermoejM/view?usp=sharing
 _____________________________________
+https://drive.google.com/file/d/1Q4jjq-QPe4QHKimLI_gJpxVFqxF054H7/view?usp=sharing
+
 # Team Members List
 <h3>Bekmurzaev Elmir</h3>
 <h3>Kudaiberdiev Eldiiar</h3>
