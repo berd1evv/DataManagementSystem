@@ -21,7 +21,8 @@ YOUTUBE VIDEO PRESENTATION:
 https://youtu.be/v6P9K398hY0
 
 # Feedbacks
-
+This program is comfortable to use. And user can use this by intuition. In programming finding the way using by intuition is the most problem and uncomfortable for programmers. But they did like that. Program is galaxy
+_____________________________________
 # Team Members List
 <h3>Bekmurzaev Elmir</h3>
 <h3>Kudaiberdiev Eldiiar</h3>
